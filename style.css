@@ -1,0 +1,420 @@
+
+.main {
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.port{
+    margin-left: 50px;
+    color: aquamarine;
+}
+.port:hover{
+    height: fit-content;
+    width: fit-content;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 5px 5px 10px whitesmoke, -5px -5px 10px whitesmoke;;
+    cursor: pointer;
+    padding: 5px;
+}
+.poo {
+    color: white;
+    right: 200px;
+    font-size: 1.5rem;
+    padding: 35px;
+}
+a{
+    text-decoration: none;  
+}
+.bot{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.bot:hover{
+    color: aquamarine;
+}
+
+h1,.top {
+    display: inline;
+}
+.top{
+    margin-left: 35px;
+}
+.top:hover{
+    height: fit-content;
+    width: fit-content;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 5px 5px 10px aquamarine, -5px -5px 10px aquamarine;
+    cursor: pointer;
+    padding: 5px;
+}
+.point {
+    margin-left: 20%;
+    display: inline;
+    color: white;
+}
+
+.myself {
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 30%;
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+
+.pic {
+    bottom: 180px;
+    border-radius: 30% 70% 70% 30%/ 30% 30% 70% 70%;
+    border-width: 1px;
+    background-color: aquamarine;
+    border-style: solid;
+    display: inline-block;
+    position: absolute;
+    right: 350px;
+    margin-bottom: 90px;
+}
+
+.name {
+    color: aquamarine;
+    font-size: 25px;
+    padding-top: 150px;
+    padding-left: 70px;
+    display: inline-block;
+}
+.name:hover{
+    text-shadow: 2px 2px 5px whitesmoke;
+    cursor: pointer;
+}
+span:hover{
+    text-shadow: 2px 2px 5px whitesmoke;
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    padding-left: 70px;
+}
+
+.nav {
+    margin-left: 5%;
+    color: aquamarine;
+    height: fit-content;
+    width: fit-content;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 5px 5px 10px whitesmoke, -5px -5px 10px whitesmoke;cursor: pointer;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    height: fit-content;
+    width: 500px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 5px;
+}
+
+.logo a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: .2rem solid;
+    border-color: aquamarine;
+    font-size: 2rem;
+    color: aquamarine;
+    margin: 1rem 1rem 1rem 0;
+}
+.logo a:hover{
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 0 0 1rem aquamarine;
+}
+.con a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: .2rem solid;
+    border-color: aquamarine;
+    font-size: 2rem;
+    color: aquamarine;
+    margin: 2rem 2rem 2rem 0;   
+}
+.con a:hover{
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 0 0 1rem aquamarine;
+}
+.con{
+    margin-left: 46%;
+}
+.tact{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    font-size: 8rem;
+    color: aquamarine;
+    margin: 2rem 2rem 2rem 0;  
+    margin-left: 25%; 
+    left:10%
+}
+
+.add{
+    display: flex;
+}
+.box {
+    color: white;
+    width:250px;
+    height: 270px;
+    border-color: aquamarine;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 40px;
+    margin-top: 80px;
+    padding: 20px;
+
+}
+
+.certify {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+    cursor: pointer;
+}
+.pro{
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border-color: aquamarine;
+    border-width: 10px;
+    border-style: double;
+    width:300px ;
+    height:400px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.project{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pro:hover{
+    border-style: solid;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+}
+.poovi{
+    background-color: aquamarine;
+    color: blueviolet;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    cursor: pointer;
+    margin-left: 50px;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+}
+
+.poovi:hover{
+    color: brown;
+        box-shadow: 5px 5px 10px whitesmoke, -5px -5px 10px whitesmoke;
+} 
+.res{
+    background-color: aquamarine;
+    color: blueviolet;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    cursor: pointer;
+    margin-left: 20px;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+}
+.res:hover{
+    box-shadow: 5px 5px 10px whitesmoke, -5px -5px 10px whitesmoke;
+}        
+.button{
+    display: flex;
+    padding-left: 20px;
+}
+.skill{
+    background-color:aquamarine;
+    height:fit-content;
+    width:fit-content;
+    padding:10px;
+}
+.ss{
+    margin: 10px;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aquamarine;
+    color: white;
+}
+.s{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.study{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 25px;
+    width: 800px;
+    background-color:black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    color:white;
+}
+.clg:hover{
+   background-color: aquamarine;
+   cursor: pointer;
+   color: black;
+}
+.edu:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.tot{
+    background-color: black;
+    display: flex;
+    margin-top: 5%;
+}
+.edupic{
+    margin-left: 70px;
+}
+.add{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c{
+    display: flex;
+}
+.java{
+    display: flex;
+}
+.html{
+    display: flex;
+}
+.css{
+    display: flex;
+}
+.css1{
+    display: flex;
+}
+.font{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: .2rem solid;
+    border-color: aquamarine;
+    font-size: 2rem;
+    color: aquamarine;
+    margin: 2rem 2rem 2rem 0;   
+}
+.tag{
+    padding-top: 14px;
+}
+.font1{
+    width: fit-content;
+    height: fit-content;
+}
+.tag1{
+    padding-left: 10%;
+    padding-bottom: 4%;
+}
+.skill:hover{
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    cursor: pointer;
+}
+.contactForm{
+    width: 30%;
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-color: aquamarine;
+    border-width: 5px;
+    border-style: solid;
+    color: white;
+    margin-left: 600px;
+    height: 250px;
+}
+.inputBox{
+    padding: 5px;
+    color: white;
+}
+.inputBox input{
+    padding: 8px;
+}
+.send{
+    color: aquamarine;
+    margin-left: 10px;
+}
+.sub:hover{
+    box-shadow: 2px 2px  whitesmoke;
+    cursor: pointer;
+}
